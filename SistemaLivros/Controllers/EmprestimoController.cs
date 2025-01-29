@@ -4,17 +4,6 @@ using SistemaLivros.Models;
 
 namespace SistemaLivros.Controllers
 {
-    public class EmprestimoControllers
-    {
-        public void EmprestarLivro(string recebedor, string fornecedor, string livroEmprestado)
-        {
-            EmprestimoModel emprestimo = new EmprestimoModel();
-            emprestimo.Recebedor = recebedor;
-            emprestimo.Fornecedor = fornecedor;
-            emprestimo.LivroEmprestado = livroEmprestado;
-            emprestimo.DataEmprestimo = DateTime.Now;
-        }
-    }
     public class EmprestimoController : Controller
     {
         private readonly ILogger<EmprestimoController> _logger;

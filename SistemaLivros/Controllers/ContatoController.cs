@@ -8,5 +8,9 @@ namespace SistemaLivros.Controllers
         {
             return View();
         }
+        public IActionResult Teste()
+        {
+            return View();
+        }
     }
 }
