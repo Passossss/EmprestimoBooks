@@ -23,6 +23,18 @@ namespace SistemaLivros.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Editar(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+
+            EmprestimoModel emprestimo = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Cadastrar(EmprestimoModel emprestimos)
         {
@@ -34,6 +46,7 @@ namespace SistemaLivros.Controllers
             }
             return View();
         }
+        
 
 
         //private readonly ILogger<EmprestimoController> _logger;

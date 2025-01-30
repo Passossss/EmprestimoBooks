@@ -26,8 +26,8 @@
                     <td>@emp.LivroEmprestado</td>
                     <td>@emp.DataUltimaAtualizacao</td>
                         <th>
-                            <a asp-controller="Emprestimo" asp-action="Editar" class="btn btn-warning mx-2">Editar</a>
-                            <a asp-controller="Emprestimo" asp-action="Excluir" class="btn btn-danger mx-2">Excluir</a>
+                            <a asp-controller="Emprestimo" asp-action="Editar"  asp-route-id="@emp.Id"  class="btn btn-warning mx-2">Editar</a>
+                            <a asp-controller="Emprestimo" asp-action="Excluir" asp-route-id="@emp.Id" class="btn btn-danger mx-2">Excluir</a>
                         </th>
                 </tr>
 
