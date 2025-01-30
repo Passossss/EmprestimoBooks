@@ -1,0 +1,36 @@
+﻿@model  IEnumerable<EmprestimoModel>
+<div class= "container">
+<table class="table table-hover">
+    <div class="d-flex justify-content-between align-items-center mb-5">
+		<h1>Empréstimos</h1>
+			<a class="btn btn-primary mx-2" asp-corimntroller="Emprestimo" asp-action="Cadastrar">Cadastrar novo empréstimo</a>
+    </div>
+        <thead>
+            <tr>
+                <th scope="col">Recebedor</th>
+                <th scope="col">Fornecedor</th>
+                <th scope="col">Livro</th>
+                <th scope="col">UltimaAtualizacao</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if(Model != null)
+            {
+
+			@foreach (var emp in Model)
+			{
+                <tr>
+                    <th scope="row">@emp.Recebedor</th>
+                    <td>@emp.Fornecedor</td>
+                    <td>@emp.LivroEmprestado</td>
+                    <td>@emp.DataUltimaAtualizacao</td>
+                </tr>
+			}
+            
+            }
+        </tbody>
+</table>
+   </div>
+
+
+<p>By!</p>
