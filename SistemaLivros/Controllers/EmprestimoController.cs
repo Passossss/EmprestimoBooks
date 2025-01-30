@@ -17,6 +17,7 @@ namespace SistemaLivros.Controllers
             IEnumerable<EmprestimoModel> emprestimos = _db.Emprestimos;
             return View(emprestimos);
         }
+        [HttpGet]
         public IActionResult Cadastrar()
         {
             return View();
