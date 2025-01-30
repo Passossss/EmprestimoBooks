@@ -11,6 +11,7 @@
                 <th scope="col">Fornecedor</th>
                 <th scope="col">Livro</th>
                 <th scope="col">UltimaAtualizacao</th>
+               
             </tr>
         </thead>
         <tbody>
@@ -24,7 +25,13 @@
                     <td>@emp.Fornecedor</td>
                     <td>@emp.LivroEmprestado</td>
                     <td>@emp.DataUltimaAtualizacao</td>
+                        <th>
+                            <a asp-controller="Emprestimo" asp-action="Editar" class="btn btn-warning mx-2">Editar</a>
+                            <a asp-controller="Emprestimo" asp-action="Excluir" class="btn btn-danger mx-2">Excluir</a>
+                        </th>
                 </tr>
+
+
 			}
             
             }
