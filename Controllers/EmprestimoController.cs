@@ -32,8 +32,8 @@ namespace SistemaLivros.Controllers
             }
 
             EmprestimoModel emprestimo = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
-            
-            if(id == null)
+
+            if (id == null)
             {
                 return NotFound();
             }
@@ -49,15 +49,19 @@ namespace SistemaLivros.Controllers
                 return NotFound();
             }
             EmprestimoModel emprestimo = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
-            _db.Emprestimos.Remove(emprestimo);
-            //_db.Emprestimos();
+            if (emprestimo == null)
+            {
+                return NotFound();
+            }
+            return View(emprestimo);
+
 
         }
 
         [HttpPost]
         public IActionResult Cadastrar(EmprestimoModel emprestimos)
         {
-            if(ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 _db.Emprestimos.Add(emprestimos);
                 _db.SaveChanges();
@@ -78,15 +82,17 @@ namespace SistemaLivros.Controllers
             return View(emprestimo);
 
         }
+        [HttpPost]
+        public IActionResult Excluir(EmprestimoModel emprestimo)
+        {
+            if (emprestimo == null)
+            {
+                return NotFound();
+            }
+            _db.Emprestimos.Remove(emprestimo);
+            _db.SaveChanges();
 
-
-
-
-        //private readonly ILogger<EmprestimoController> _logger;
-        //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        //public IActionResult Error()
-        //{
-        //    return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
-        //}
+            return RedirectToAction("Index");
+        }
     }
 }
