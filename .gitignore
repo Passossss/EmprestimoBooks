@@ -14,6 +14,14 @@
 /*
 !/SistemaLivros/
 
+#user Gu
+.vs/
+properties/
+bin/
+obj/
+*.csproj
+*.json
+*.user
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
