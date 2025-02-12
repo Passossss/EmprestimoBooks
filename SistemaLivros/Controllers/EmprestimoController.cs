@@ -32,7 +32,26 @@ namespace SistemaLivros.Controllers
             }
 
             EmprestimoModel emprestimo = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
-            return View();
+            
+            if(id == null)
+            {
+                return NotFound();
+            }
+
+            return View(emprestimo);
+        }
+
+        [HttpGet]
+        public IActionResult Excluir(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            EmprestimoModel emprestimo = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
+            _db.Emprestimos.Remove(emprestimo);
+            //_db.Emprestimos();
+
         }
 
         [HttpPost]
@@ -46,7 +65,21 @@ namespace SistemaLivros.Controllers
             }
             return View();
         }
-        
+        [HttpPost]
+        public IActionResult Editar(EmprestimoModel emprestimo)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Emprestimos.Update(emprestimo);
+                _db.SaveChanges();
+
+                return RedirectToAction("Index");
+            }
+            return View(emprestimo);
+
+        }
+
+
 
 
         //private readonly ILogger<EmprestimoController> _logger;
