@@ -70,6 +70,7 @@ namespace SistemaLivros.Controllers
 
                 return RedirectToAction("Index");
             }
+            //TempData["MensagemErro"] = "Algum erro ocorreu ao realizar o cadastro!";
             return View();
         }
         [HttpPost]
@@ -84,6 +85,7 @@ namespace SistemaLivros.Controllers
 
                 return RedirectToAction("Index");
             }
+            TempData["MensagemErro"] = "Algum erro ocorreu ao realizar a edição!";
             return View(emprestimo);
 
         }
