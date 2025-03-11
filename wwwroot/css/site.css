@@ -1,7 +1,11 @@
 html {
     font-size: 14px;
 }
-
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
 @media (min-width: 768px) {
     html {
         font-size: 16px;

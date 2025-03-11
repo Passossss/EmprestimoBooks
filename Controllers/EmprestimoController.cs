@@ -2,6 +2,8 @@
 using System.Diagnostics;
 using SistemaLivros.Models;
 using SistemaLivros.Data;
+using System.Data;
+using ClosedXML.Excel;
 
 namespace SistemaLivros.Controllers
 {
@@ -54,8 +56,39 @@ namespace SistemaLivros.Controllers
                 return NotFound();
             }
             return View(emprestimo);
+        }
 
+        public IActionResult Exportar(EmprestimoModel emprestimo) 
+        {
+            var dados = GetDados();
 
+            using (XLWorkbook wb = new XLWorkbook())
+            {
+                wb.AddWorksheet(dados);
+                wb.SaveAs("Emprestimos.xlsx");
+            }
+
+            return Ok();
+        }
+
+        private DataTable GetDados()
+        {
+            DataTable datatable = new DataTable();
+            datatable.TableName = "Dados Emprestimos";
+            datatable.Columns.Add("Recebedor", typeof(string));
+            datatable.Columns.Add("Fornecedor", typeof(string));
+            datatable.Columns.Add("Livro", typeof(string));
+            datatable.Columns.Add("Data Emprestimo", typeof(DateTime));
+
+            var dados = _db.Emprestimos.ToList();
+
+            if(dados.Count > 0)
+            {
+                dados.ForEach(emprestimo =>
+                {
+                    datatable.Rows.Add(new object[] { emprestimo.Recebedor, emprestimo.Fornecedor,emprestimo.LivroEmprestado, emprestimo.DataUltimaAtualizacao });)
+            }
+            return datatable;
         }
 
         [HttpPost]
