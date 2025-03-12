@@ -23,6 +23,9 @@ obj/
 *.user
 .vs/
 Minty.css
+Migrations/
+SistemaLivros.sln
+
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
