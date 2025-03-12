@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SistemaLivros.Data;
+using SistemaLivros.Services.LoginService;
+using SistemaLivros.Services.SenhaService;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,10 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddScoped<ILoginInterface, LoginService>();//a interface identificar a login service
+
+builder.Services.AddScoped<ISenhaInterface, SenhaService>();
 
 var app = builder.Build();
 

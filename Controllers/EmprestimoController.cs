@@ -58,17 +58,19 @@ namespace SistemaLivros.Controllers
             return View(emprestimo);
         }
 
-        public IActionResult Exportar(EmprestimoModel emprestimo) 
+        public IActionResult Exportar()
         {
             var dados = GetDados();
 
             using (XLWorkbook wb = new XLWorkbook())
             {
                 wb.AddWorksheet(dados);
-                wb.SaveAs("Emprestimos.xlsx");
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    wb.SaveAs(ms);
+                    return File(ms.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "Emprestimos.xlsx");
+                }
             }
-
-            return Ok();
         }
 
         private DataTable GetDados()
@@ -82,59 +84,68 @@ namespace SistemaLivros.Controllers
 
             var dados = _db.Emprestimos.ToList();
 
-            if(dados.Count > 0)
+            if (dados.Count > 0)
             {
                 dados.ForEach(emprestimo =>
                 {
-                    datatable.Rows.Add(new object[] { emprestimo.Recebedor, emprestimo.Fornecedor,emprestimo.LivroEmprestado, emprestimo.DataUltimaAtualizacao });)
+                    datatable.Rows.Add(emprestimo.Recebedor, emprestimo.Fornecedor, emprestimo.LivroEmprestado, emprestimo.DataEmprestimo);
+                });
             }
             return datatable;
         }
 
-        [HttpPost]
-        public IActionResult Cadastrar(EmprestimoModel emprestimos)
-        {
-            if (ModelState.IsValid)
+            [HttpPost]
+            public IActionResult Cadastrar(EmprestimoModel emprestimos)
             {
-                _db.Emprestimos.Add(emprestimos);
+                if (ModelState.IsValid)
+                {
+                    emprestimos.DataEmprestimo = DateTime.Now;
+
+                    _db.Emprestimos.Add(emprestimos);
+                    _db.SaveChanges();
+
+                    TempData["MensagemSucesso"] = "Cadastro realizado com sucesso!";
+
+                    return RedirectToAction("Index");
+                }
+                //TempData["MensagemErro"] = "Algum erro ocorreu ao realizar o cadastro!";
+                return View();
+            }
+            [HttpPost]
+            public IActionResult Editar(EmprestimoModel emprestimo)
+            {
+                if (ModelState.IsValid)
+                {
+                    var emprestimoDB = _db.Emprestimos.Find(emprestimo.Id); //para nao alterar a data tambem
+
+                    emprestimoDB.Recebedor = emprestimo.Recebedor;
+                    emprestimoDB.Fornecedor = emprestimo.Fornecedor;
+                    emprestimoDB.LivroEmprestado = emprestimo.LivroEmprestado;
+
+                    _db.Emprestimos.Update(emprestimoDB);
+                    _db.SaveChanges();
+
+                    TempData["MensagemSucesso"] = "Edição realizada com sucesso!";
+
+                    return RedirectToAction("Index");
+                }
+                TempData["MensagemErro"] = "Algum erro ocorreu ao realizar a edição!";
+                return View(emprestimo);
+
+            }
+            [HttpPost]
+            public IActionResult Excluir(EmprestimoModel emprestimo)
+            {
+                if (emprestimo == null)
+                {
+                    return NotFound();
+                }
+                _db.Emprestimos.Remove(emprestimo);
                 _db.SaveChanges();
 
-                TempData["MensagemSucesso"] = "Cadastro realizado com sucesso!";
+                TempData["MensagemSucesso"] = "Remoção realizada com sucesso!";
 
                 return RedirectToAction("Index");
             }
-            //TempData["MensagemErro"] = "Algum erro ocorreu ao realizar o cadastro!";
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Editar(EmprestimoModel emprestimo)
-        {
-            if (ModelState.IsValid)
-            {
-                _db.Emprestimos.Update(emprestimo);
-                _db.SaveChanges();
-
-                TempData["MensagemSucesso"] = "Edição realizada com sucesso!";
-
-                return RedirectToAction("Index");
-            }
-            TempData["MensagemErro"] = "Algum erro ocorreu ao realizar a edição!";
-            return View(emprestimo);
-
-        }
-        [HttpPost]
-        public IActionResult Excluir(EmprestimoModel emprestimo)
-        {
-            if (emprestimo == null)
-            {
-                return NotFound();
-            }
-            _db.Emprestimos.Remove(emprestimo);
-            _db.SaveChanges();
-
-            TempData["MensagemSucesso"] = "Remoção realizada com sucesso!";
-
-            return RedirectToAction("Index");
         }
     }
-}
