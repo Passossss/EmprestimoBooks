@@ -24,27 +24,31 @@ namespace SistemaLivros.Controllers
         {
             return View();
         }
-    }
 
-    [HttpPost]
-    public async Task<IActionResult> Registrar(UsuarioRegisterDto userDto)
-    {
-        if (ModelState.IsValid)
+        [HttpPost]
+        public async Task<IActionResult> Registrar(UsuarioRegisterDto userDto)
         {
-            var usuario = await _loginInterface.RegistrarUsuario(userDto);
-            if (usuario.Status)
+            if (ModelState.IsValid)
             {
-                TempData["MensagemSucesso"] = usuario.Mensagem;
-            }
-            else
+                var usuario = await _loginInterface.RegistrarUsuario(userDto);
+                if (usuario.Status)
+                {
+                    TempData["MensagemSucesso"] = usuario.Mensagem;
+                }
+                else
+                {
+                    TempData["MensagemErro"] = usuario.Mensagem;
+                    return View(userDto);
+                }
+
+                return RedirectToAction("Index");
+            }else
             {
-                TempData["MensagemErro"] = usuario.Mensagem;
                 return View(userDto);
             }
-
-            return RedirectToAction("Index");
         }
     }
+}
 
     
     

@@ -13,10 +13,10 @@ namespace SistemaLivros.Dto
         [Required(ErrorMessage = "O campo 'Email' é obrigatório.")]
         public string Email { get; set; }
         [Required(ErrorMessage = "O campo 'Senha' é obrigatório.")]
-        public byte[] Senha { get; set; }
+        public string Senha { get; set; }
         [Required(ErrorMessage = "O campo 'Confirma Senha' é obrigatório."),
             Compare("Senha", ErrorMessage = "As senhas não sao iguais")]
-        public byte[] ConfirmaSenha { get; set; }
+        public string ConfirmaSenha { get; set; }
     
     }
 }
