@@ -36,13 +36,16 @@ namespace SistemaLivros.Services.LoginService
                     response.Status = false;
                     return response;
                 }
-                if(!_senhaInterface.VerificarSenha(usuarioLoginDto.Senha, usuario.SenhaHash, usuario.SenhaSalt)) //=false
+                if(!_senhaInterface.VerificarSenha(usuarioLoginDto.Senha, usuario.SenhaHash, usuario.SenhaSalt))
                     {
                     response.Mensagem = "Email ou Senha Incorretos";
                     response.Status = false;
                     return response;
                 }
-                
+                Console.WriteLine($"Senha digitada: {usuarioLoginDto.Senha}");
+                Console.WriteLine($"Senha armazenada (hash): {Convert.ToBase64String(usuario.SenhaHash)}");
+                Console.WriteLine($"Salt armazenado: {Convert.ToBase64String(usuario.SenhaSalt)}");
+
                 _sessaoInterface.CriarSessao(usuario);
 
 

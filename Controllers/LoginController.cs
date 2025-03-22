@@ -20,18 +20,23 @@ namespace SistemaLivros.Controllers
 
         public IActionResult Login()
         {
+            var usuario = _sessaoInterface.BuscarSessao();
+            if (usuario != null)
+            {
+                return RedirectToAction("Index", "Home");
+            }
             return View();
         }
         public IActionResult Logout()
         {
             _sessaoInterface.RemoverSessao();
-
             return RedirectToAction("Login");
         }
 
 
         public IActionResult Registrar()
         {
+            
             return View();
         }
 
@@ -62,7 +67,7 @@ namespace SistemaLivros.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(UsuarioLoginDto usuarioLoginDto)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 var usuario = await _loginInterface.Login(usuarioLoginDto);
                 if (usuario.Status)
@@ -73,7 +78,7 @@ namespace SistemaLivros.Controllers
                 else
                 {
                     TempData["MensagemErro"] = usuario.Mensagem;
-                    return View("Login", usuarioLoginDto);
+                    return View(usuarioLoginDto);
                 }
             }
             else
