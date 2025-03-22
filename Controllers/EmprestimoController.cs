@@ -134,7 +134,7 @@ namespace SistemaLivros.Controllers
 
                     return RedirectToAction("Index");
                 }
-                //TempData["MensagemErro"] = "Algum erro ocorreu ao realizar o cadastro!";
+                TempData["MensagemErro"] = "Algum erro ocorreu ao realizar o cadastro!";
                 return View();
             }
             [HttpPost]
