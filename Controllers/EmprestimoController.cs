@@ -4,30 +4,50 @@ using SistemaLivros.Models;
 using SistemaLivros.Data;
 using System.Data;
 using ClosedXML.Excel;
+using SistemaLivros.SessaoService;
 
 namespace SistemaLivros.Controllers
 {
     public class EmprestimoController : Controller
     {
         readonly private ApplicationDbContext _db;
-        public EmprestimoController(ApplicationDbContext db)
+        private readonly ISessaoInterface _sessaoInterface;
+        public EmprestimoController(ApplicationDbContext db, ISessaoInterface sessaoInterface)
         {
             _db = db;
+            _sessaoInterface = sessaoInterface;
         }
         public IActionResult Index()
         {
+            var usuario = _sessaoInterface.BuscarSessao();
+            if (usuario == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             IEnumerable<EmprestimoModel> emprestimos = _db.Emprestimos;
             return View(emprestimos);
         }
         [HttpGet]
         public IActionResult Cadastrar()
         {
+            var usuario = _sessaoInterface.BuscarSessao();
+            if (usuario == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
             return View();
         }
 
         [HttpGet]
         public IActionResult Editar(int? id)
         {
+            var usuario = _sessaoInterface.BuscarSessao();
+            if (usuario == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (id == null || id == 0)
             {
                 return NotFound();
@@ -46,6 +66,12 @@ namespace SistemaLivros.Controllers
         [HttpGet]
         public IActionResult Excluir(int? id)
         {
+            var usuario = _sessaoInterface.BuscarSessao();
+            if (usuario == null)
+            {
+                return RedirectToAction("Login", "Login");
+            }
+
             if (id == null || id == 0)
             {
                 return NotFound();

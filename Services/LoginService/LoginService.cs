@@ -1,9 +1,11 @@
 ﻿using Azure;
+using DocumentFormat.OpenXml.Office2019.Excel.ThreadedComments;
 using Microsoft.AspNetCore.Mvc;
 using SistemaLivros.Data;
 using SistemaLivros.Dto;
 using SistemaLivros.Models;
 using SistemaLivros.Services.SenhaService;
+using SistemaLivros.SessaoService;
 
 namespace SistemaLivros.Services.LoginService
 {
@@ -11,12 +13,50 @@ namespace SistemaLivros.Services.LoginService
     {
         private readonly ApplicationDbContext _context;
         private readonly ISenhaInterface _senhaInterface;
-        public LoginService(ApplicationDbContext context, ISenhaInterface senhaInterface)
+        private readonly ISessaoInterface _sessaoInterface;
+        public LoginService(ApplicationDbContext context, 
+            ISenhaInterface senhaInterface,
+            ISessaoInterface sessaoInterface)
         {
             _context = context;
             _senhaInterface = senhaInterface;
+            _sessaoInterface = sessaoInterface;
         }
 
+        public async Task<ResponseModel<UsuarioModel>> Login(UsuarioLoginDto usuarioLoginDto)
+        {
+            ResponseModel<UsuarioModel> response = new ResponseModel<UsuarioModel>();
+            try
+            {
+                var usuario = _context.Usuarios.FirstOrDefault(x => x.Email == usuarioLoginDto.Email);
+
+                if (usuario == null)
+                {
+                    response.Mensagem = "Email ou Senha Incorretos";
+                    response.Status = false;
+                    return response;
+                }
+                if(!_senhaInterface.VerificarSenha(usuarioLoginDto.Senha, usuario.SenhaHash, usuario.SenhaSalt)) //=false
+                    {
+                    response.Mensagem = "Email ou Senha Incorretos";
+                    response.Status = false;
+                    return response;
+                }
+                
+                _sessaoInterface.CriarSessao(usuario);
+
+
+                response.Mensagem = "Login Realizado com Sucesso";
+                return response;
+
+            }
+            catch (Exception ex)
+            {
+                response.Mensagem = ex.Message;
+                response.Status = false;
+                return response;
+            }
+        }
         public async Task<ResponseModel<UsuarioModel>> RegistrarUsuario(UsuarioRegisterDto usuarioRegisterDto)
         {
             ResponseModel<UsuarioModel> response = new ResponseModel<UsuarioModel>();
@@ -50,12 +90,10 @@ namespace SistemaLivros.Services.LoginService
             }
             catch (Exception ex)
             {
-                {
                     response.Mensagem = ex.Message;
                     response.Status = false;
                     return response;
 
-                }
             }
         }
 

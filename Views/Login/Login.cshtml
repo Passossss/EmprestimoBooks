@@ -1,4 +1,13 @@
-﻿@if (TempData["MensagemSucesso"] != null)
+﻿@using SistemaLivros.Dto
+@model UsuarioLoginDto
+
+@{
+	Layout = "_LayoutDeslogada";
+}
+
+
+
+@if (TempData["MensagemSucesso"] != null)
 {
     <div class="alert alert-success text-light" role="alert">
         @TempData["MensagemSucesso"]
@@ -12,12 +21,14 @@
     </div>
 }
 
+
+<div asp-validation-summary="All" class="text-danger"></div>
+
 <div class="container">
-    <form>
+    <form asp-action="Login" asp-controller="Login" method="post">
         <div class="mb-3">
             <label for="email" class="form-label">Email:</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">Nunca compartilharemos seu e-mail com mais ninguém.</div>
+            <input type="email" class="form-control" id="email" asp-for"Email">
         </div>
         <div class="mb-3">
             <label for="senha" class="form-label">Senha:</label>

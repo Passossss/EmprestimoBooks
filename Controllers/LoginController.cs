@@ -2,6 +2,7 @@
 using SistemaLivros.Dto;
 using SistemaLivros.Services.LoginService;
 using SistemaLivros.Services.SenhaService;
+using SistemaLivros.SessaoService;
 
 namespace SistemaLivros.Controllers
 {
@@ -9,16 +10,25 @@ namespace SistemaLivros.Controllers
     {
 
         private readonly ILoginInterface _loginInterface;
+        private readonly ISessaoInterface _sessaoInterface;
 
-        public LoginController(ILoginInterface loginInterface)
+        public LoginController(ILoginInterface loginInterface, ISessaoInterface sessaoInterface)
         {
             _loginInterface = loginInterface;
+            _sessaoInterface = sessaoInterface;
         }
 
-        public IActionResult Index()
+        public IActionResult Login()
         {
             return View();
         }
+        public IActionResult Logout()
+        {
+            _sessaoInterface.RemoverSessao();
+
+            return RedirectToAction("Login");
+        }
+
 
         public IActionResult Registrar()
         {
@@ -42,11 +52,37 @@ namespace SistemaLivros.Controllers
                 }
 
                 return RedirectToAction("Index");
-            }else
+            }
+            else
             {
                 return View(userDto);
             }
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Login(UsuarioLoginDto usuarioLoginDto)
+        {
+            if (!ModelState.IsValid)
+            {
+                var usuario = await _loginInterface.Login(usuarioLoginDto);
+                if (usuario.Status)
+                {
+                    TempData["MensagemSucesso"] = usuario.Mensagem;
+                    return RedirectToAction("Index", "Home");
+                }
+                else
+                {
+                    TempData["MensagemErro"] = usuario.Mensagem;
+                    return View("Login", usuarioLoginDto);
+                }
+            }
+            else
+            {
+                return View(usuarioLoginDto);
+            }
+
+        }
+
     }
 }
 
