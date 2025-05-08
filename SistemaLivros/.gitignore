@@ -16,15 +16,9 @@
 #user Gu
 .vs/
 properties/
-bin/
-obj/
-*.csproj
-*.json
-*.user
 .vs/
 Minty.css
 Migrations/
-SistemaLivros.sln
 
 
 
