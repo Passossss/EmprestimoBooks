@@ -1,0 +1,528 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\services\\emprestimoservice\\emprestimosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\services\\emprestimoservice\\emprestimosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\sistemalivros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\sistemalivros.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\views\\emprestimo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\views\\emprestimo\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\controllers\\emprestimocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\views\\emprestimo\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\views\\emprestimo\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\views\\login\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\views\\login\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\views\\login\\registrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\views\\shared\\_layoutdeslogada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\views\\shared\\_layoutdeslogada.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\views\\emprestimo\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\views\\emprestimo\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\views\\shared\\_layoutdeslogada.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\views\\shared\\_layoutdeslogada.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\services\\loginservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\services\\loginservice\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\services\\loginservice\\ilogininterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\services\\loginservice\\ilogininterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\views\\home\\sobre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\views\\home\\sobre.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\views\\home\\politica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\views\\home\\politica.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\dto\\usuarioregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\dto\\usuarioregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\dto\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\dto\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\services\\senhaservice\\senhaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\services\\senhaservice\\senhaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\services\\senhaservice\\isenhainterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\services\\senhaservice\\isenhainterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\services\\sessaoservice\\isessaointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\services\\sessaoservice\\isessaointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\models\\responsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\services\\sessaoservice\\sessaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\services\\sessaoservice\\sessaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|c:\\users\\gustavo passos\\desktop\\emprestimobooks\\sistemalivros\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{58805116-2B47-4A68-B866-1ECC97270D74}|SistemaLivros\\SistemaLivros.csproj|solutionrelative:sistemalivros\\models\\usuariomodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 213,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmprestimosService.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\EmprestimoService\\EmprestimosService.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Services\\EmprestimoService\\EmprestimosService.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\EmprestimoService\\EmprestimosService.cs",
+              "RelativeToolTip": "SistemaLivros\\Services\\EmprestimoService\\EmprestimosService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T01:16:31.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SistemaLivros.csproj",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\SistemaLivros.csproj",
+              "RelativeDocumentMoniker": "SistemaLivros\\SistemaLivros.csproj",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\SistemaLivros.csproj",
+              "RelativeToolTip": "SistemaLivros\\SistemaLivros.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-29T01:16:30.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_LayoutDeslogada.css",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Shared\\_LayoutDeslogada.css",
+              "RelativeDocumentMoniker": "SistemaLivros\\Views\\Shared\\_LayoutDeslogada.css",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Shared\\_LayoutDeslogada.css",
+              "RelativeToolTip": "SistemaLivros\\Views\\Shared\\_LayoutDeslogada.css",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-22T13:42:03.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Emprestimo\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaLivros\\Views\\Emprestimo\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Emprestimo\\Index.cshtml",
+              "RelativeToolTip": "SistemaLivros\\Views\\Emprestimo\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T05:29:26.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SistemaLivros\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SistemaLivros\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T23:06:40.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_LayoutDeslogada.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Shared\\_LayoutDeslogada.cshtml",
+              "RelativeDocumentMoniker": "SistemaLivros\\Views\\Shared\\_LayoutDeslogada.cshtml",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Shared\\_LayoutDeslogada.cshtml",
+              "RelativeToolTip": "SistemaLivros\\Views\\Shared\\_LayoutDeslogada.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIAwwC4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T04:41:49.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SistemaLivros\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SistemaLivros\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAIAwwDUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T23:07:19.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Politica.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Home\\Politica.cshtml",
+              "RelativeDocumentMoniker": "SistemaLivros\\Views\\Home\\Politica.cshtml",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Home\\Politica.cshtml",
+              "RelativeToolTip": "SistemaLivros\\Views\\Home\\Politica.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T05:29:23.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Sobre.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Home\\Sobre.cshtml",
+              "RelativeDocumentMoniker": "SistemaLivros\\Views\\Home\\Sobre.cshtml",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Home\\Sobre.cshtml",
+              "RelativeToolTip": "SistemaLivros\\Views\\Home\\Sobre.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T05:29:14.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "SistemaLivros\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "SistemaLivros\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-22T05:47:57.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "SistemaLivros\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "SistemaLivros\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-03-20T23:07:25.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Program.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Program.cs",
+              "RelativeToolTip": "SistemaLivros\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:51:18.561Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsuarioRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Dto\\UsuarioRegisterDto.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Dto\\UsuarioRegisterDto.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Dto\\UsuarioRegisterDto.cs",
+              "RelativeToolTip": "SistemaLivros\\Dto\\UsuarioRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:51:07.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Models\\ResponseModel.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Models\\ResponseModel.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Models\\ResponseModel.cs",
+              "RelativeToolTip": "SistemaLivros\\Models\\ResponseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T01:52:55.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsuarioModel.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Models\\UsuarioModel.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Models\\UsuarioModel.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Models\\UsuarioModel.cs",
+              "RelativeToolTip": "SistemaLivros\\Models\\UsuarioModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:14:34.721Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 187,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmprestimoController.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Controllers\\EmprestimoController.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Controllers\\EmprestimoController.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Controllers\\EmprestimoController.cs",
+              "RelativeToolTip": "SistemaLivros\\Controllers\\EmprestimoController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T04:58:12.304Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "SistemaLivros\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:06:38.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Emprestimo\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "SistemaLivros\\Views\\Emprestimo\\Excluir.cshtml",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Emprestimo\\Excluir.cshtml",
+              "RelativeToolTip": "SistemaLivros\\Views\\Emprestimo\\Excluir.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T13:43:30.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Registrar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Login\\Registrar.cshtml",
+              "RelativeDocumentMoniker": "SistemaLivros\\Views\\Login\\Registrar.cshtml",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Login\\Registrar.cshtml",
+              "RelativeToolTip": "SistemaLivros\\Views\\Login\\Registrar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-20T23:37:08.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Login\\Login.cshtml",
+              "RelativeDocumentMoniker": "SistemaLivros\\Views\\Login\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Login\\Login.cshtml",
+              "RelativeToolTip": "SistemaLivros\\Views\\Login\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-21T01:02:27.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Emprestimo\\Editar.cshtml",
+              "RelativeDocumentMoniker": "SistemaLivros\\Views\\Emprestimo\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Views\\Emprestimo\\Editar.cshtml",
+              "RelativeToolTip": "SistemaLivros\\Views\\Emprestimo\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-22T13:43:17.985Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SistemaLivros\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SistemaLivros\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-03-22T05:41:26.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\LoginService\\LoginService.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Services\\LoginService\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\LoginService\\LoginService.cs",
+              "RelativeToolTip": "SistemaLivros\\Services\\LoginService\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:51:11.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ILoginInterface.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\LoginService\\ILoginInterface.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Services\\LoginService\\ILoginInterface.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\LoginService\\ILoginInterface.cs",
+              "RelativeToolTip": "SistemaLivros\\Services\\LoginService\\ILoginInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T11:51:10.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UsuarioLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Dto\\UsuarioLoginDto.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Dto\\UsuarioLoginDto.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Dto\\UsuarioLoginDto.cs",
+              "RelativeToolTip": "SistemaLivros\\Dto\\UsuarioLoginDto.cs",
+              "ViewState": "AgIAAAEAAAAAsCbUU/bavwcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T01:38:43.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SenhaService.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\SenhaService\\SenhaService.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Services\\SenhaService\\SenhaService.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\SenhaService\\SenhaService.cs",
+              "RelativeToolTip": "SistemaLivros\\Services\\SenhaService\\SenhaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:00:10.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ISenhaInterface.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\SenhaService\\ISenhaInterface.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Services\\SenhaService\\ISenhaInterface.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\SenhaService\\ISenhaInterface.cs",
+              "RelativeToolTip": "SistemaLivros\\Services\\SenhaService\\ISenhaInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:00:04.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SistemaLivros\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T05:12:39.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ContatoController.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Controllers\\ContatoController.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Controllers\\ContatoController.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Controllers\\ContatoController.cs",
+              "RelativeToolTip": "SistemaLivros\\Controllers\\ContatoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-22T05:12:43.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ISessaoInterface.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\SessaoService\\ISessaoInterface.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Services\\SessaoService\\ISessaoInterface.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\SessaoService\\ISessaoInterface.cs",
+              "RelativeToolTip": "SistemaLivros\\Services\\SessaoService\\ISessaoInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T01:09:58.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SessaoService.cs",
+              "DocumentMoniker": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\SessaoService\\SessaoService.cs",
+              "RelativeDocumentMoniker": "SistemaLivros\\Services\\SessaoService\\SessaoService.cs",
+              "ToolTip": "C:\\Users\\Gustavo Passos\\Desktop\\EmprestimoBooks\\SistemaLivros\\Services\\SessaoService\\SessaoService.cs",
+              "RelativeToolTip": "SistemaLivros\\Services\\SessaoService\\SessaoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-21T01:09:41.206Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
