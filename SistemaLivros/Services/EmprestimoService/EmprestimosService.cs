@@ -34,6 +34,29 @@ namespace SistemaLivros.Services.EmprestimoService
             }
             return datatable;
         }
+        
+        public async Task<ResponseModel<EmprestimoModel>> CadastrarEmprestimo(EmprestimoModel emprestimosModel)
+        {
+            ResponseModel<EmprestimoModel> response = new ResponseModel<EmprestimoModel>();
+
+            try
+            {
+
+                _context.Add(emprestimosModel);
+                await _context.SaveChangesAsync();
+
+                response.Mensagem = "Cadastro realizado com sucesso!";
+
+                return response;
+
+            }catch(Exception ex)
+            {
+                response.Mensagem= ex.Message;
+                response.Status = false;
+                return response;
+            }
+        }
+
         public async Task<ResponseModel<List<EmprestimoModel>>> BuscarEmprestimos()
         {
             ResponseModel<List<EmprestimoModel>> response = new ResponseModel<List<EmprestimoModel>>();

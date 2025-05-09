@@ -10,10 +10,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e72ea2f3-ff2b-436f-b0ed-67d21d14964e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/6cdb64ef-a959-4d8a-a251-ab51b1f9112c.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EmprestimoBooks.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmprestimoBooks/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmprestimoBooks/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmprestimoBooks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmprestimoBooks/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/1549c568-9380-42ef-be86-9f18a736daa7.vsidx" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/d38db1e8-d2f8-433f-963f-55835e5489fc.vsidx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/326f1829-5a03-4a6e-8251-192b11d4b069.vsidx" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/fa9a56ad-4085-4e3f-b9b7-717c9fddc1da.vsidx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/4394e3d7-f7a9-4366-8f80-6c2937ffe0c9.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/f6762a93-4a9b-4350-a23b-56614b5f198a.vsidx" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/bf83d0e3-5c41-417c-8daa-5c7ee52bbfc2.vsidx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/v17/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/v17/DocumentLayout.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/emprestimobooks.metadata.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/emprestimobooks.metadata.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/emprestimobooks.projects.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/emprestimobooks.projects.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/emprestimobooks.strings.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/emprestimobooks.strings.v9.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/Controllers/EmprestimoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/Controllers/EmprestimoController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SistemaLivros/Controllers/LoginController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/Controllers/LoginController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaLivros/Models/ResponseModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/Models/ResponseModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SistemaLivros/Services/LoginService/ILoginInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/Services/LoginService/ILoginInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/Models/EmprestimoModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/Models/EmprestimoModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/Services/LoginService/LoginService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/Services/LoginService/LoginService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/SessaoService/ISessaoInterface.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/SessaoService/SessaoService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/Views/Login/Registrar.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/Views/Login/Registrar.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/Views/Shared/_LayoutDeslogada.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/Views/Shared/_LayoutDeslogada.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +89,10 @@
     &quot;accountId&quot;: &quot;89189f83-3985-48b2-a6d2-770e98c8d824&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -57,6 +112,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;SolutionBuilderGeneralOptionsPage&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -120,6 +176,9 @@
       <workItem from="1741717543641" duration="1050000" />
       <workItem from="1741739818169" duration="2502000" />
       <workItem from="1741893901015" duration="53000" />
+      <workItem from="1746804752794" duration="1207000" />
+      <workItem from="1746808622351" duration="65000" />
+      <workItem from="1746808703574" duration="646000" />
     </task>
     <servers />
   </component>
@@ -129,5 +188,23 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
