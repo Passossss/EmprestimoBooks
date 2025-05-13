@@ -10,21 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e72ea2f3-ff2b-436f-b0ed-67d21d14964e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/6cdb64ef-a959-4d8a-a251-ab51b1f9112c.vsidx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EmprestimoBooks.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmprestimoBooks/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmprestimoBooks/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EmprestimoBooks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EmprestimoBooks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/1549c568-9380-42ef-be86-9f18a736daa7.vsidx" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/d38db1e8-d2f8-433f-963f-55835e5489fc.vsidx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/326f1829-5a03-4a6e-8251-192b11d4b069.vsidx" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/fa9a56ad-4085-4e3f-b9b7-717c9fddc1da.vsidx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/4394e3d7-f7a9-4366-8f80-6c2937ffe0c9.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/f6762a93-4a9b-4350-a23b-56614b5f198a.vsidx" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/FileContentIndex/bf83d0e3-5c41-417c-8daa-5c7ee52bbfc2.vsidx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/v17/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/v17/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/v17/DocumentLayout.backup.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/v17/DocumentLayout.backup.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/EmprestimoBooks/v17/DocumentLayout.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/EmprestimoBooks/v17/DocumentLayout.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/emprestimobooks.metadata.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/emprestimobooks.metadata.v9.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/emprestimobooks.projects.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/emprestimobooks.projects.v9.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectEvaluation/emprestimobooks.strings.v9.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/ProjectEvaluation/emprestimobooks.strings.v9.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SistemaLivros/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SistemaLivros/Controllers/EmprestimoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/Controllers/EmprestimoController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SistemaLivros/Controllers/LoginController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaLivros/Controllers/LoginController.cs" afterDir="false" />
@@ -178,7 +163,7 @@
       <workItem from="1741893901015" duration="53000" />
       <workItem from="1746804752794" duration="1207000" />
       <workItem from="1746808622351" duration="65000" />
-      <workItem from="1746808703574" duration="646000" />
+      <workItem from="1746808703574" duration="1606000" />
     </task>
     <servers />
   </component>
